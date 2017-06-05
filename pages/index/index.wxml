@@ -3,10 +3,10 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="usermotto">
-    <image class="img1" src="../../images/aixin.png" background-size="cover"></image>
+  <view class="mt120">
+    <text>{{welcome}}</text>
   </view>
-  <view>
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <navigator url="../admin/admin" class="navigator">
+    <view class="navigator-text">进入小窝</view>
+  </navigator>
 </view>

@@ -2,17 +2,10 @@
 var app = getApp()
 Page({
   data: {
-    motto: '亭亭来抱你啦',
+    welcome: '欢迎来到壮壮和亭亭的小窝',
     userInfo: {}
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
   onLoad: function () {
-    console.log('onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){

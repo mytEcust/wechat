@@ -15,17 +15,12 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 150px;
-}
-
-.img1{
-  display:block;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-}
-
-.user-motto{
+.mt120 {
   color:#ff6a66;
+  margin-top:120rpx;
+}
+
+.navigator {
+  color:#ff6a66;
+  margin-top:40rpx;
 }
