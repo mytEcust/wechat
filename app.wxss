@@ -1,3 +1,5 @@
+@import "/common/index.wxss"
+@import "/common/button.wxss"
 .container {
   height: 100%;
   display: flex;

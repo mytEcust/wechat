@@ -21,6 +21,13 @@
 }
 
 .navigator {
-  color:#ff6a66;
   margin-top:40rpx;
+}
+
+.red {
+  color:#ff6a66;
+}
+
+.welbtn {
+  background-color:#EC8B89 !important;
 }
