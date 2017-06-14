@@ -1,0 +1,43 @@
+<!--create.wxml-->
+<view class="page-body">
+    <form catchsubmit="formSubmit" class="createform">
+      <view class="datepp">
+        <picker mode="date" value="{{date}}" bindchange="bindDateChange" name="date">
+          <view class="weui-input">{{date}}</view>
+        </picker>
+      </view>
+      <view class="border"></view>
+      <view class="textarea-wrp">
+        <textarea auto-height placeholder="请输入文本" name="text"/>
+      </view>
+      <view class="border"></view>
+      <!--<view class="">
+        <label bindtap="checkimg">点击选择图片</label>
+      </view>-->
+          <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view class="weui-uploader">
+                <view class="weui-uploader__bd">
+                  <view class="weui-uploader__files">
+                    <block wx:for="{{imageList}}" wx:for-item="image">
+                      <view class="weui-uploader__file">
+                        <image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"  mode="aspectFill"></image>
+                      </view>
+                    </block>
+                  </view>
+                  <view class="weui-uploader__input-box">
+                    <view class="weui-uploader__input" bindtap="chooseImage"></view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+      <!--<view class="page-section-ctn">
+        <image wx:for="{{imglist}}" mode="aspectFit" data-src="{{item}}" src="{{item}}"></image>
+      </view>-->
+      <view class="border"></view>
+      <view class="btn-area">
+        <button type="primary" formType="submit">Submit</button>
+      </view>
+  </form>
+</view>

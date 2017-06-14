@@ -32,7 +32,6 @@ Page({
 })
 
 function getDate(tDate){
-  console.info(tDate);
   //计算出相差天数  
   var days=Math.floor(tDate/(24*3600*1000))  
   

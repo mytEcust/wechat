@@ -1,0 +1,17 @@
+<!--list.wxml-->
+<view class="page-body">
+<view wx:for="{{list}}" wx:for-item="itemList" wx:key="listId" class="item-body" wx:for-index="listindex">
+  <view wx:for="{{itemList.content}}" wx:for-item="item" wx:key="itemListId" data-select-index="{{listindex}}" data-index="{{index}}" class="viewout" bindtap="previewImage">
+    <view wx:if="{{item.type === 'date'}}" class="listTit">
+      {{item.content}}
+    </view>
+    <view wx:if="{{item.type === 'text'}}" class="listText">
+      {{item.content}}
+    </view>
+    <view wx:if="{{item.type === 'img'}}" class="listimg">
+        <image src="http://182.254.140.96/images/{{item.content}}" class="img" mode="aspectFill"></image>
+    </view>
+  </view>
+  <view class="deletetxt" data-contentid="{{itemList.content[0].contentId}}" bindtap="deleteContent">delete</view>
+</view>
+</view>

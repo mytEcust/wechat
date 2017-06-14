@@ -1,1 +1,13 @@
-<view class="list">我是列表</view>
+<view wx:for="{{dataList}}" wx:for-item="itemList" wx:key="dataListId">
+  <view wx:for="{{itemList}}" wx:for-item="item" wx:key="itemListId">
+    <view wx:if="{{item.type === 'tit'}}" class="listTit">
+      {{item.content}}
+    </view>
+    <view wx:if="{{item.type === 'text'}}" class="listText">
+      {{item.content}}
+    </view>
+    <view wx:if="{{item.type === 'img'}}" class="listText">
+      <image src="{{item.content}}"></image>
+    </view>
+  </view>
+</view>

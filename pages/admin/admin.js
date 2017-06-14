@@ -1,9 +1,26 @@
 //获取应用实例
-var app = getApp()
+var app = getApp();
+var dataList = [];
+var itemList = [{
+  type:'tit',
+  content:'2017-6-7'
+},{
+  type:'text',
+  content:'I am text'
+},{
+  type:'img',
+  content:'../../images/aixin.png'
+},{
+  type:'text',
+  content:'I am description'
+}];
+dataList.push(itemList);
+dataList.push(itemList);
+dataList.push(itemList);
+dataList.push(itemList);
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    dataList: dataList
   },
   //事件处理函数
   bindViewTap: function() {

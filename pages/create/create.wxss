@@ -1,0 +1,39 @@
+/* create.wxss */
+view{
+  display: block;
+}
+.page-body {
+    background-color:#FFFFFF;
+    font-size:32rpx;
+    line-height:1.6;
+    padding-top: 10rpx;
+}
+
+.datepick {
+  padding:0 25rpx;
+}
+
+.datepp{
+  position:relative;
+  line-height:1.41176471;
+  font-size:17px;
+  padding:0 25rpx;
+}
+
+.border{
+  height: 10rpx;
+  background-color: #f8f8f8;
+}
+
+.weui-cell::before {
+  border-top:0rpx;
+}
+
+.weui-uploader__input-box {
+  margin-bottom: 0rpx;
+}
+
+.btn-area{
+  margin-right:30rpx;
+  margin-left:30rpx;
+}

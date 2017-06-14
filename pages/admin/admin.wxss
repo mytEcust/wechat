@@ -3,3 +3,11 @@
     flex-direction: column;
     align-items: center;
 }
+
+.listTit {
+  color:darkblue;
+}
+
+.listText {
+  color:aqua;
+}

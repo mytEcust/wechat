@@ -9,7 +9,10 @@
   <view class="red">
     <text>{{showDate}}</text>
   </view>
-  <navigator url="../admin/admin" class="navigator">
-    <button type="primary" class="welbtn">进入小窝</button>
+  <navigator url="../list/list" class="navigator" >
+    <button type="primary" class="welbtn">查看万年历</button>
+  </navigator>
+  <navigator url="../create/create" class="navigator" >
+    <button type="primary" class="welbtn">创建万年历</button>
   </navigator>
 </view>

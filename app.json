@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/admin/admin"
+    "pages/admin/admin",
+    "pages/create/create",
+    "pages/list/list"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "壮壮和亭亭的小窝",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }

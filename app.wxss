@@ -1,5 +1,9 @@
 @import "/common/index.wxss"
 @import "/common/button.wxss"
+@import "/common/picker.wxss"
+@import "/common/textarea.wxss"
+@import "/common/image.wxss"
+
 .container {
   height: 100%;
   display: flex;
@@ -9,3 +13,10 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 }
+
+view,image,navigator {
+box-sizing: border-box;
+font-family: STHeitiSC-Light,"Arial","Microsoft YaHei";
+}
+
+    
